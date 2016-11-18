@@ -11,4 +11,8 @@ AudioManager.singleton.Play3D(...)
 
 AudioManager.singleton.PlayMusic(...)
 
-AudioManager.singleton.StopMusic(...)
+AudioManager.singleton.StopMusic()
+
+AudioManager.singleton.SetAllAudioSpeed(...);
+
+AudioManager.singleton.ResetAudioSpeed();
