@@ -7,6 +7,6 @@ Instructions:
 2. Use the singleton to access the AudioManager. 
 
 The commands are: 
-AudioManager.singleton.Play3D(...);
-AudioManager.singleton.PlayMusic(...);
-AudioManager.singleton.StopMusic(...);
+AudioManager.singleton.Play3D(...)
+AudioManager.singleton.PlayMusic(...)
+AudioManager.singleton.StopMusic(...)
