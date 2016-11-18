@@ -12,8 +12,9 @@ public class AudioManager : MonoBehaviour
      * The commands are: 
      * AudioManager.singleton.Play3D(...);
      * AudioManager.singleton.PlayMusic(...);
-     * AudioManager.singleton.StopMusic(...);
-     *
+     * AudioManager.singleton.StopMusic();
+     * AudioManager.singleton.SetAllAudioSpeed(...);
+     * AudioManager.singleton.ResetAudioSpeed();
      */
     public static AudioManager singleton;
 
